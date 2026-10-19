@@ -1,0 +1,14 @@
+# API 서버
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# 인증
+PyJWT>=2.8.0
+
+# SQL 검증
+sqlglot>=25.0.0
+
+# LLM (LLM_PROVIDER=claude 일 때만 사용)
+anthropic>=1.0.0
